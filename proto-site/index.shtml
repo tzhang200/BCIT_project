@@ -3,8 +3,8 @@
     <head>
         <title>COMP 1950</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" media="screen " type="text/css" href="/styles/style.css" title="Normal">
-        <link rel="stylesheet" media="print " type="text/css" href="/styles/print.css" title="Print">       
+        <link rel="stylesheet" media="screen " type="text/css" href="styles/style.css" title="Normal">
+        <link rel="stylesheet" media="print " type="text/css" href="styles/print.css" title="Print">       
         <!--[if lt IE 9]>
         <script src="scripts/html5shiv.js"></script>
         <![endif]-->

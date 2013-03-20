@@ -16,7 +16,7 @@
                          <li><a href="#">10</a><ul><li>Source Control GIT</li></ul></li>
                     </ul>
                 </li>
-                <li><a href="#">Course in Blog</a></li>
+                <li><a href="http://bcit1950meatloaf.tumblr.com/">Course in Blog</a></li>
                 <li><a href="http://teams.thenet.ca/meatloaf/proto-site/references/index.shtml">References</a></li>
                 <li><a href="http://teams.thenet.ca/meatloaf/proto-site/assignments/index.shtml">Assignments</a></li>
                 <li><a href="#">Site Map</a></li>
