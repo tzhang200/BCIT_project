@@ -3,8 +3,8 @@
     <head>
         <title>COMP 1950</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" media="screen " type="text/css" href="/styles/style.css" title="Normal">
-        <link rel="stylesheet" media="print " type="text/css" href="/styles/print.css" title="Print">             
+        <link rel="stylesheet" media="screen " type="text/css" href="../styles/style.css" title="Normal">
+        <link rel="stylesheet" media="print " type="text/css" href="../styles/print.css" title="Print">             
         <!--[if lt IE 9]>
         <script src="scripts/html5shiv.js"></script>
         <![endif]-->
@@ -33,7 +33,7 @@
 
                 <code>&lt;link rel="stylesheet" type="text/css" href="http://www.mysite.com/css/styles.css" title="Main Style" media="screen" /&gt;</code>
 
-                <p>This features a number of things to keep in mind:
+                <p>This features a number of things to keep in mind:</p>
                     <ul>
                         <li>Each stylesheet should have a <code>title</code> tag inside of it</li>
                         <li>The <code>title</code> tag allows the user to select different styles if required</li>
@@ -41,18 +41,7 @@
                         <li>Each stylesheet requires it's own <code>link</code> tag</li>
                         <li>The &quot;media&quot; attribute allows you to specify what medium this should be viewed in</li>
                     </ul>
-                </p>
 
-                <p>
-                    <h3>Media variations</h3>
-                    <ul>
-                        <li><code>media="type"</code> can be a powerful tool</li>
-                        <li>Examples of supported types:  all, aural, braille, embossed, handheld, print, projection, screen, tty, tv</li>
-                        <li>Most are not commonly supported, but ones that you will see often: all, screen, print with handheld becoming more popular</li>
-                        <li>Almost all browsers use the 'print' sheet to render text and elements for when the user selects a page to print</li>
-                        <li>This can be extremely valuable for when you have a lot of page information that you might not want to have show up on a printout (ie: navigation)</li>
-                    </ul>
-                </p>
 
                 <h3>Alternate sheets</h3>
                 <p>You can also have alternate stylesheets supported</p>
@@ -91,13 +80,12 @@
 
                 <h3>Example:</h3>
                 <p>From your main document, create a <code>&lt;link&gt;</code> to your <code>styles.css</code> page (you can even use <code>media="screen"</code>, or <code>media="print"</code>.)</p>
-                <p>in the body of the <code>styles.css</code> file, import as many files as you need:
-                    <ul>
-                        <li><code>@import url(/css/type.css);</code></li>
-                        <li><code>@import url(/css/nav.css);</code></li>
-                        <li><code>@import url(/css/template.css);</code></li>
-                    </ul>
-                </p>
+                <p>in the body of the <code>styles.css</code> file, import as many files as you need:</p>
+                <ul>
+                    <li><code>@import url(/css/type.css);</code></li>
+                    <li><code>@import url(/css/nav.css);</code></li>
+                    <li><code>@import url(/css/template.css);</code></li>
+                </ul>
  
                 <h3>Cool CSS Tool</h3>  
                 <ul>
@@ -126,17 +114,6 @@
                 <p>There are other uses for pseudo elements, that will allow for greater detail in styling content, such as <code>:first-letter</code> and <code>:first-line</code>.  These allow the browser to apply a style based on an unselected, but displayed element.</p>
 
                 <p><strong>Best part:</strong>  No <code>span</code> or <code>div</code> required to access these pseudo-elements.</p>
-                <ul>
-                    <li>Within <code>a</code> pseudo-elements in particular, it's important to follow a certain order:</li>
-                        <ul><li>Link</li>
-                            <li>Visited</li>
-                            <li>Hover</li>
-                            <li>Active</li></ul>
-                    <li>Easy mnemonic: LVHA - <strong>L</strong>o<strong>V</strong>e - <strong>HA</strong>te</li>
-                    <li>Because of the way that CSS applies rules, it looks at the LAST rule for a given element and applies more weight to it.</li>
-                    <li>So: if you are Hovering over a link, you don't want to see the Link state</li>
-                    <li>So: If you CLICK on a link, you don't want to see the Link state</li>
-                </ul>
 
                 <p>We'll cover more Pseudo-Class magic next week!</p>
 
@@ -222,12 +199,12 @@
             
                 <p>When a style declaration is found to be in conflict with a previously declared style, there is a method for determining which one will win out.  The process is built into every web browser, and almost all of them calculate the values identically (for once!).</p>
                 
-                <p>Here is how the <acronym title="World Wide Web Consortium">W3C</acronym> defines the process by which style order is determined:</p>
+                <p>Here is how the W3C defines the process by which style order is determined:</p>
                 
                 <ul>
                     <li><strong>Discover all declarations.</strong>  Find all declarations that apply to the element and property in question, for the target media type. Declarations apply if the associated selector matches the element in question. </li>
                     <li><strong>Sheet Order.</strong> The primary sort of the declarations is by weight and origin: for normal declarations, author style sheets override user style sheets which override the default style sheet. </li>
-                        <ul><li class="note"><em>Note:</em> For "!important" declarations, user style sheets override author style sheets which override the default style sheet. "!important" declaration override normal declarations. An imported style sheet has the same origin as the style sheet that imported it. </li></ul>
+                    <li class="note"><em>Note:</em> For "!important" declarations, user style sheets override author style sheets which override the default style sheet. "!important" declaration override normal declarations. An imported style sheet has the same origin as the style sheet that imported it. </li>
                     <li><strong>Specificity:</strong> The secondary sort is by specificity of selector: more specific selectors will override more general ones. Pseudo-elements and pseudo-classes are counted as normal elements and classes, respectively. </li>
                     <li><strong>Sort by Order:</strong> Finally, sort by order specified: if two rules have the same weight, origin and specificity, the latter specified wins. Rules in imported style sheets are considered to be before any rules in the style sheet itself.</li>
                 </ul>
@@ -238,16 +215,15 @@
                 <p><strong>Specificity</strong> is a method for determining what rules are applied when a conflict between two selectors occurs.  Through a method of adding values when certain elements and selectors are present, a specificity number can be applied to any CSS rule.  The one with highest specificity wins and the associated rule is applied to the element(s) in question.</p>
                 
                 <h3>Ruleset for Specificity</h3>
-                <p>Style sheets can also override conflicting style sheets based on their level of specificity, where a more specific style will always win out over a less specific one. It is simply a counting game to calculate the specificity of a selector.
+                <p>Style sheets can also override conflicting style sheets based on their level of specificity, where a more specific style will always win out over a less specific one. It is simply a counting game to calculate the specificity of a selector.</p>
                 
                 <ol>
                     <li>Count the number of ID attributes in the selector.</li>
                     <li>Count the number of CLASS attributes in the selector.</li>
                     <li>Count the number of HTML tag names in the selector.</li>
                 </ol>
-                </p>
                 
-                <p>Next, write the three numbers in exact order with no spaces or commas to obtain a three digit number. (Note, you may need to convert the numbers to a larger base to end up with three digits.) The final list of numbers corresponding to selectors will easily determine specificity with the higher numbers winning out over lower numbers. Following is a list of selectors sorted by specificity:
+                <p>Next, write the three numbers in exact order with no spaces or commas to obtain a three digit number. (Note, you may need to convert the numbers to a larger base to end up with three digits.) The final list of numbers corresponding to selectors will easily determine specificity with the higher numbers winning out over lower numbers. Following is a list of selectors sorted by specificity:</p>
                 
                 <ul>
                     <li>#id1<br />/* a=1 b=0 c=0 --> specificity = 100 */</li>
@@ -255,7 +231,7 @@
                     <li>LI.red<br />/* a=0 b=1 c=1 --> specificity = 011 */</li>
                     <li>LI<br />/* a=0 b=0 c=1 --> specificity = 001 */</li>
                 </ul>
-                </p>
+
                 
                 
                 <h3>!Important rule</h3>
@@ -328,17 +304,6 @@
                     <li><strong>RGB: <code>rgb(255, 0, 255)</code></strong> - This allows the user to specify the same thing as Hex, but in Decimal format</li>
                     <li><strong>RGB %: <code>rgb(100%, 0%, 50%)</code></strong> - Almost identical to RGB, but with percentages of each color space instead</li>
                 </ul>
-            </div>
-    
-            <h2>CSS Resources</h2>
-            <div class="content">
-                <ul>
-                    <li><strong><a href="https://developer.mozilla.org/en/CSS-2_Quick_Reference/">CSS2 Quick Reference</a></strong></li>
-                    <li>An excellent book on CSS: <a href="http://www.amazon.ca/gp/product/0321643380?ie=UTF8&tag=css-tricks-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0321643380">Handcrafted CSS</a></li>
-                    <li>Another excellent book: <a href="http://www.amazon.ca/gp/product/1430223979/ref=as_li_ss_tl?ie=UTF8&tag=css-tricks-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1430223979">CSS Mastery</a></li>
-                    
-                </ul>
-            
             </div>
     
             <h2>CSS Reset</h2>

@@ -1,0 +1,215 @@
+body{ width:960px; margin: auto;  background:#fff url(http://teams.thenet.ca/meatloaf/proto-site/images/back.png) repeat-x; font-family:arial, sans-Serif;}
+
+.center{
+	text-align:center;
+}
+
+
+
+
+#head{
+	display:inline-table;
+	height: 130px; 
+	width: 100%;
+	background-color:#fff;
+	
+	
+}
+
+#head h1{
+	float: left;
+	margin:3px;
+	padding:2px;
+	font-size:4.5em;
+	position:relative;
+	
+	text-decoration: none;
+	font-family:Arial,Sans-serif;
+	
+}
+#head em{
+	font-family:Verdana, sans-Serif;
+	float: left;
+	font-size:30%;
+	width:80%;
+	position:relative;
+}
+
+
+#navi {
+	float: left;
+	width: 100%;
+	margin:0px 0px 0px 0px;
+	padding-top: 5px;
+	list-style: none;
+	height:65px;
+	position:relative;
+		border-top: 1px solid #888;
+   background: #000;
+   background: -webkit-gradient(linear, left top, left bottom, from(#888), to(#000));
+   background: -webkit-linear-gradient(top, #888, #000);
+   background: -moz-linear-gradient(top, #888, #000);
+   background: -ms-linear-gradient(top, #888, #000);
+   background: -o-linear-gradient(top, #888, #000);
+	border-bottom: 1px solid #000;
+	}
+	
+#navi a{
+
+color:#fff; 
+
+text-decoration: none;
+
+
+}
+#navi a:hover{
+color:#ccc;
+
+}
+
+
+#navi ul li{
+	width:152px;
+	height:70px;
+  list-style:none;
+  text-decoration: none;
+  float: left;
+  position:relative;
+  text-align:center;
+   font-size:1.2em; 
+   right:20px;
+   bottom:20px;
+}
+
+
+#navi  li ul {
+	float: left;
+  visibility: hidden; 
+  position:relative;
+  width:960px;
+	height:40px;  
+  right:160px;
+  top:20px;
+}
+
+#navi li ul ul{
+	float: left;
+  visibility: hidden; 
+  position:relative;
+  width:96px;
+ 
+}
+
+#navi ul ul li {
+	width:96px;
+  list-style:none;
+  text-decoration: none;
+  bottom:20px;
+  font-size:1.2em;
+  right:48px;
+    
+}
+
+#navi ul ul li ul li{
+	width:200px;
+  list-style:none;
+  text-decoration: none;
+  left:68px;
+  font-size:1.3em;
+  bottom:20px;
+color:#fff;  
+}
+
+
+#navi li:hover > ul {
+
+  visibility: visible; 
+  z-index:50;
+  
+}
+
+#navi li ul li:hover > ul {
+	width:200px;
+ float: left;
+  position:relative;
+  text-align:center;
+	
+
+  visibility: visible; 
+  z-index:101;
+  font-size:10px;
+  
+}
+
+
+
+
+	
+#main{
+	 
+	width:960px;  
+	padding:0px 30px 5px;
+	background-image: url(http://teams.thenet.ca/meatloaf/proto-site/images/note.png);
+	background-repeat:repeat-y; 
+	float:left;
+	font-family:Lucida Console;
+	
+	
+}
+
+#main p{
+	line-height:1.65em;
+	font-size:1em;
+	padding:0 50px 0 10px;
+}
+
+#main ul{
+	line-height:130%;
+	font-size:1em;
+	
+	padding:0 50px 0 40px;
+}
+#main dl{
+	line-height:135%;
+	font-size:1em;
+	
+	padding:0 50px 0 40px;
+}
+#main dt{
+	line-height:135%;
+	font-size:1.3em;
+	
+	padding:20px 50px 0 40px;
+}
+
+
+#main h2{
+	font-size:1.3em;
+	padding-top:7px;
+}
+
+
+
+
+#foot{
+	padding-top:1px;
+	background: #000;
+   background: -webkit-gradient(linear, left top, left bottom, from(#888), to(#000));
+   background: -webkit-linear-gradient(top, #888, #000);
+   background: -moz-linear-gradient(top, #888, #000);
+   background: -ms-linear-gradient(top, #888, #000);
+   background: -o-linear-gradient(top, #888, #000);
+	border-bottom: 1px solid #000;
+	color:#fff;
+	clear:both;
+	
+}
+
+#foot p{
+	
+	padding:0 0 0 10px;
+}
+
+
+
+
