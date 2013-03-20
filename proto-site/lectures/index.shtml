@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>COMP 1950</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" media="screen " type="text/css" href="/styles/style.css" title="Normal">
+        <link rel="stylesheet" media="print " type="text/css" href="/styles/print.css" title="Print"> 
+        <!--[if lt IE 9]>
+        <script src="scripts/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!--#include virtual="../incs/head.inc" -->
+        <!--#include virtual="../incs/nav.inc" -->
+
+        <section id="main">
+            <h2>Lecture Outline</h2>
+            <div class="content">
+                <p>Here is the current Course Outline (by lectures):</p>
+        
+                <dl class="outline">
+                    <dt>Lecture 1</dt>
+                    <dd>Course Introduction:</dd>
+                    <dd>Why are you here</dd>
+                    <dd>What you will learn</dd>
+                    <dd>Student Survey</dd>
+                    <dd><strong>Assignment 1:</strong> Course homepage</dd>
+            
+                    <dt>Lecture 2</dt>
+                    <dd>Web Development tools</dd>
+                    <dd>Standards in Web development</dd>  
+                    <dd><strong>Assignment 2: </strong>Using tools &amp; standards</dd>
+                
+                    <dt>Lecture 3</dt>
+                    <dd>XHTML1, XHTML 2, HTML 4, HTML 5</dd>
+                    <dd>History and current developments</dd>
+                    <dd>What is the best development language?</dd>
+                    <dd><strong>Assignment 3:</strong> Working with different MLs</dd>
+                
+                    <dt><a href="lecture4/index.html">Lecture 4</a></dt>
+                    <dd><strong>Quiz 1:</strong> Markup</dd>
+                    <dd>Review of CSS</dd>
+                    <dd>Beyond text formatting</dd>
+                    <dd><strong>Assignment 4:</strong> Using different stylesheets</dd>
+                
+                    <dt>Lecture 5</dt>
+                    <dd>Advanced CSS</dd>
+                    <dd>Layout and positioning</dd>
+                    <dd><strong>Assignment 5:</strong> Troubleshooting CSS, Positioning Exercises</dd>
+                
+                    <dt>Lecture 6</dt>
+                    <dd>Understanding Server Side Includes</dd>
+                    <dd>Beyond SSIs: Delivering dynamic information</dd>
+                    <dd>Introduction to template development</dd>
+                    <dd><strong>Assignment 6:</strong> Template</dd>
+                
+                    <dt>Lecture 7</dt>
+                    <dd>&rarr; <em>Midterm</em></dd>
+                    <dd>More Template Development</dd>
+                    <dd>Used in Blogs, wikis, user-driven sites, communities</dd>
+                    <dd><strong>Assignment 7:</strong> Template II</dd>
+                
+                    <dt>Lecture 8</dt>
+                    <dd>Development Methodology </dd>
+                    <dd>Requirements, Design, Production, Launch, Maintenance</dd>
+                    <dd><strong>Project outlined</strong></dd>
+                    <dd><strong>Assignment 8:</strong> Methodology Notes</dd>
+                
+                    <dt>Lecture 9</dt>
+                    <dd>Behaviour</dd>
+                    <dd>Adding interactivity</dd>
+                    <dd>JavaScript Libraries and Frameworks</dd>
+                    <dd><strong>Assignment 9:</strong> Javascript exercises</dd>
+                
+                    <dt>Lecture 10</dt>
+                    <dd>Site Construction</dd>
+                    <dd>Bringing it all together</dd>
+                    <dd>Source/Revision Control using GIT</dd>
+                    <dd><strong>Assignment 10</strong>: Completed site</dd>             
+
+                </dl>
+            </div>
+        </section> <!-- main -->
+        
+        <!--#include file="../incs/foot.inc" -->
+    </body>
+</html>
+
+            

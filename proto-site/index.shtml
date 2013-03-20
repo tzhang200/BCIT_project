@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>COMP 1950</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" media="screen " type="text/css" href="/styles/style.css" title="Normal">
+        <link rel="stylesheet" media="print " type="text/css" href="/styles/print.css" title="Print">       
+        <!--[if lt IE 9]>
+        <script src="scripts/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!--#include virtual="incs/head.inc" -->
+        <!--#include virtual="incs/nav.inc" -->
+
+        <section id="main">
+        	<h2>Introduction</h2>
+    		<div class="content">
+                <p>
+                    Official details about the who, what, where and how are located in the <a href="http://www.bcit.ca/study/courses/comp1950">course info</a> section
+                </p>
+                <p>					
+                    Some more information you might like to know: 
+                    <ul>
+                        <li>More theory than in 1850</li>
+                        <li>Still a fair amount of practical experience</li>
+                        <li>Hands on coding and working in teams</li>
+                        <li>Real-life methods taken from developers</li>
+                        <li>Class and homework exercises</li>
+                    </ul>
+                </p>
+    	   </div> 
+        	
+    		<h2>People</h2>
+    		<div class="content">
+        		<ul>
+        			<li>Instructor: <a href="mailto:acalder1@my.bcit.ca">alistair calder</a> </li>
+        			<li>TAs: currently no TA assigned for this course</li>
+        		</ul>
+        	</div>
+        	
+    		<h2>Grading Scheme </h2>
+    		<div class="content">
+    		<ul>
+    			<li>Assignments (various): 20%</li>
+    			<li>Quizzes(2): 20%</li>
+    			<li>Project: 30%</li>
+    			<li>Final Exam: 30%</li>
+    		</ul>
+        	</div>
+        	
+    		<h2>Acedemic Conduct</h2>
+    		<div class="content">
+        		<p>
+                    Each student is resposible for understanding and abiding by the BCIT <a href="http://www.bcit.ca/welcome/regulations.shtml">Student Regulations and Academic Requirements and Standards</a>
+        		</p>
+        	</div>
+        	
+    		<h2>Expectation</h2>
+    		<div class="content">
+        		<p>
+        			This course is about Web Development, and thus you should understand the following:
+        			<ul>
+        				<li>FTP</li>
+        				<li>File/Folder Name</li>
+        				<li>Web Space</li>
+        				<li>Upkeep</li>
+        				<li>Navigation</li>
+        			</ul>
+        		</p>
+        	</div> 
+        </section> <!-- main -->
+        
+        <!--#include file="incs/foot.inc" -->
+    </body>
+</html>
+
+            
+        
+
