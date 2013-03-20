@@ -1,9 +1,5 @@
         <nav id="nav">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li>
-                    <a href="#">Lectures</a>
-                    <ul>
+			<ul>
                 <li><a href="http://teams.thenet.ca/meatloaf/proto-site/index.shtml">Home</a></li>
                 <li>
                     <a href="http://teams.thenet.ca/meatloaf/proto-site/lectures/index.shtml">Lectures</a>
@@ -24,11 +20,5 @@
                 <li><a href="http://teams.thenet.ca/meatloaf/proto-site/references/index.shtml">References</a></li>
                 <li><a href="http://teams.thenet.ca/meatloaf/proto-site/assignments/index.shtml">Assignments</a></li>
                 <li>Site Map</li>
-            </ul>
-                </li>
-                <li><a href="http://bcit1950meatloaf.tumblr.com/">Course in Blog</a></li>
-                <li><a href="http://teams.thenet.ca/meatloaf/proto-site/references/index.shtml">References</a></li>
-                <li><a href="http://teams.thenet.ca/meatloaf/proto-site/assignments/index.shtml">Assignments</a></li>
-                <li><a href="#">Site Map</a></li>
             </ul>
         </nav>
