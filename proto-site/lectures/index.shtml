@@ -14,8 +14,8 @@
         <!--#include virtual="../incs/nav.inc" -->
 
         <section id="main">
-            <h2>Lecture Outline</h2>
-            <div class="content">
+            <article class="content">
+                <h2>Lecture Outline</h2>
                 <p>Here is the current Course Outline (by lectures):</p>
         
                 <dl class="outline">
@@ -79,7 +79,7 @@
                     <dd><strong>Assignment 10</strong>: Completed site</dd>             
 
                 </dl>
-            </div>
+            </article>
         </section> <!-- main -->
         
         <!--#include file="../incs/foot.inc" -->

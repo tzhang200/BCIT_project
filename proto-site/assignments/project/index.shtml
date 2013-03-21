@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>COMP 1950</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" media="screen " type="text/css" href="../../styles/style.css" title="Normal">
+        <link rel="stylesheet" media="print " type="text/css" href="../../styles/print.css" title="Print">         
+        <!--[if lt IE 9]>
+        <script src="scripts/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!--#include virtual="../../incs/head.inc" -->
+        <!--#include virtual="../../incs/nav.inc" -->
+
+        <section id="main">
+            <section class="content assignment">
+                <h2>Major Project </h2>
+            
+                <h3>Project Overview</h3>
+                <p>Using production methods discussed today and development techniques learned throughout the course, your group will create a proto-site and documents to support the redesign of the COMP1950 web site.</p>
+                
+                <h3>Requirements</h3>
+                <p>The COMP 1950 owner (Alistair Calder) would like the web site redesigned in order to better meet the needs of students.  The website owner has contracted your group, as students of the class, to act as contractors for this project.</p>
+                
+                <h3>Project Goals</h3>
+                <ul>
+                    <li>Students must have easy access to notes, examples and other information</li>
+                    <li>The site should reflect the aims of the course: 
+                <ul>
+                <li>Standards compliant web development</li>
+                <li>CSS</li>
+                <li>HTML 5</li>
+                <li>Methodology-driven design, etc</li></ul></li>
+                    
+                </ul>
+                
+                <h3>Deliverables</h3>
+                <ul>
+                    <li>For this project, you will create a web site that will act as the project home for all of the other documents you will create.</li>
+                    <li>This is frequently referred to as a <em>Client Site</em> or a <em>Cliet Project Site</em> and is a place for clients to find information on team members, progress reports, artifacts, examples and more</li>
+                    <li>Your client site will be similar to your course homepage, in that it is a central location for all the other documents you are making available</li>
+                    <li>Your other deliverables are going to be:
+                        <ol>
+                        <li>A Client Project Site created for this project that describes the project and links to various artifacts.</li>
+                        <li>An Introduction page that describes the project (as you understand it, including the goals of the project) and the members of the team.  This page should also list what each team member actually did during the project</li>
+                        <li>A proto-site that has at least 3 different pages mocked up: the home page, a lecture page and the blog page</li>
+                        <li>A blog page must be included, and it <strong>must be on Tumblr</strong>. The template you use for the blog must look identical in layout and presentation to your protosite</li>
+                        <li>Wireframe(s) of the major sections of the site (<a href="wireframe.html">Example lecture page</a>) that you used to design the protosite (done in HTML, Word or Visio). Your designs may have started on paper but they should be ported to digital.  These can also be done by using paper prototypes (scanned) or just using a low-tech solution like Word (make boxes in Drawing mode) or HTML (using simple tables)</li>
+                        <li>In the wireframes, include descriptions of what is included in each content area</li>
+                        <li>Sitemap (<a href="sitemap.html">Example sitemap</a>) (HTML, Word or Visio). the sitemap is for your proposed site, NOT the client site.</li>
+                        <li>Rationale page - <strong>this is the most important page in your site.</strong>  This is where you describe <strong>why</strong> you chose to build the site in the way you have proposed. Make sure you agreee on this in your group!</li>
+                        <li>All of this should be presented in an <em>HTML 5 compliant web site with CSS-based navigation</em></li>
+                        </ol></li>
+                </ul>
+                
+                
+                <h3>Answers</h3>
+                <p><a href="answers.html">Answers to student questionnaires</a>.</p>
+                
+                <h3>Teamwork</h3>
+                <ul>
+                    <li>This project will require work from all members of your team</li>
+                    <li>Start by agreeing on a plan of attack - get agreement!</li>
+                    <li>Start making decisions on how the site will look, what functions it needs to have, how users will access information</li>
+                    <li>Draw some sketches for how it could look, think about labels and information design</li>
+                    <li>Once you know what needs to be on the site and how it will look, divide up the work.  Make sure your team knows who is doing what</li>
+                    <li>There is plenty to do, but if you work together, it is an easy project to get done in time</li>
+                <li>Think outside the box - don't just copy the current design.  Look around at other sites and use your creativity.  But - be realistic!  Make your suggestions something that can work</li>
+                    <li>If you have questions that will further refine your own direction, ask the owner of the site for details</li>
+                    <li>Think about this project in context of the Methodology discussion that happened in class and the readings for week 8</li>
+                    <li>Best suggestion: start from scratch with the content as a known variable. Build from there.</li>
+                </ul>
+                 
+                
+                <h3>Validation</h3>
+                  <ul>
+                
+                    <li>All content must be valid HTML 5</li>
+                    <li>All presentation must be valid CSS</li>
+                    <li>Add a link on each page to validate:
+                      <ul>
+                        <li>HTML: <a href="http://validator.w3.org/">http://validator.w3.org/</a></li>
+                      </ul></li>
+                    </ul>
+                    
+                
+                    <h3>Remember!</h3>
+                
+                    <ul>
+                        <li>This project can be done with approximately 20-30 hours of total work.  With 4 people on a team, and 8 hours of (total) work each, that equals 32 hours.  Lots of time.</li>
+                        <li>Look at the existing site, and break it down. What are the component parts? Begin there. What needs to be done? What should be there?</li>
+                        
+                        <li>As a student, <em>YOU are the audience</em>.  Talk to your cohorts, spend time considering the current experience, design the site the way you think it would work best.</li>
+                <li>You <strong>do not</strong> have to include actual notes for the class.  This project is to produce a proof-of-concept of the new COMP 1950 site</li>
+                <li>Think outside the box! Be creative!</li>
+                    </ul>
+                
+                <h3>Submission</h3>
+                <ul>
+                    <li>Once complete, send the URL for your project site to: <a href="mailto:acalder1@my.bcit.ca">acalder1@my.bcit.ca</a></li>
+                </ul>
+            </section>
+            
+        </section> <!-- main -->
+        
+        <!--#include virtual="../../incs/foot.inc" -->
+
+    </body>
+</html>
+
+            

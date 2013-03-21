@@ -3,8 +3,8 @@
     <head>
         <title>COMP 1950</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" media="screen " type="text/css" href="/styles/style.css" title="Normal">
-        <link rel="stylesheet" media="print " type="text/css" href="/styles/print.css" title="Print">         
+        <link rel="stylesheet" media="screen " type="text/css" href="../styles/style.css" title="Normal">
+        <link rel="stylesheet" media="print " type="text/css" href="../styles/print.css" title="Print">         
         <!--[if lt IE 9]>
         <script src="scripts/html5shiv.js"></script>
         <![endif]-->
@@ -17,11 +17,11 @@
             <h2>Assignment due on 12pm at the following Monday</h2>
             <div class="content">
                 <ul>
-                    <li><a href= "#">Assignment 1</a>, <em>Due on 12pm, Jan 7, 2013</em>  </li>
-                    <li><a href="#">Assignment 2</a>, <em>Due on 12pm, Jan 14, 2013</em>  </li>
-                    <li><a href= "#">Assignment 3</a>, <em>Due on 12pm, Jan 21, 2013</em>  </li>
-                    <li><a href="#">Assignment 4</a>, <em>Due on 12pm, Jan 28, 2013</em>  </li>
-                    <li><a href="#">Project</a>,  Due on <em>Mar 26, 2013</em></li>
+                    <li><a href= "assignment1/index.shtml">Assignment 1</a>, <em>Due on 12pm, Jan 7, 2013</em>  </li>
+                    <li><a href="assignment2/index.shtml">Assignment 2</a>, <em>Due on 12pm, Jan 14, 2013</em>  </li>
+                    <li><a href= "assignment3/index.shtml">Assignment 3</a>, <em>Due on 12pm, Jan 21, 2013</em>  </li>
+                    <li><a href="assignment4/index.shtml">Assignment 4</a>, <em>Due on 12pm, Jan 28, 2013</em>  </li>
+                    <li><a href="project/index.shtml">Project</a>,  Due on <em>Mar 26, 2013</em></li>
                 </ul>
            </div> 
             

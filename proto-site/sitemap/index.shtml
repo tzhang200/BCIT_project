@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>COMP 1950</title>
+        <meta charset="UTF-8">
+        <!--[if lt IE 9]>
+        <script src="scripts/html5shiv.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" media="screen " type="text/css" href="../styles/style.css" title="Normal">
+        <link rel="stylesheet" media="print " type="text/css" href="../styles/print.css" title="Print">
+        <link rel="stylesheet" type="text/css" media="screen, print" href="slickmap.css" />
+    </head>
+    <body>
+        <!--#include virtual="../incs/head.inc" -->
+        <!--#include virtual="../incs/nav.inc" -->
+        <nav class="sitemap">
+            <ul id="utilityNav">
+                <li><a href="#">Site Map</a></li>
+            </ul>
+            <ul id="primaryNav">
+                <li id="home"><a href="#">Home</a></li>
+                <li>
+                    <a href="../lectures/index.shtml">Lectures</a>
+                    <ul>
+                        <li><a href="../lectures/lecture1/index.shtml">01 | Introduction</a></li>
+                        <li><a href="../lectures/lecture2/index.shtml">02 | Tools &amp; standards</a></li>
+                        <li><a href="../lectures/lecture3/index.shtml">03 | HTML 5 &amp; SEO</a></li>
+                        <li><a href="../lectures/lecture4/index.shtml">04 | CSS concepts</a>
+                            <ul>
+                                <li><a href="../lectures/lecture4/exercise/exercise1.html">Exercise 1</a></li>
+                                <li><a href="../lectures/lecture4/exercise/exercise2.html">Exercise 2</a></li>
+                                <li><a href="../lectures/lecture4/exercise/exercise3.html">Exercise 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../lectures/lecture5/index.shtml">05 | More CSS</a></li>
+                        <li><a href="../lectures/lecture6/index.shtml">06 | CSS and SSIs</a></li>
+                        <li><a href="../lectures/lecture7/index.shtml">07 | Template development</a></li>
+                        <li><a href="../lectures/lecture8/index.shtml">08 | Develpment methodology</a></li>
+                        <li><a href="../lectures/lecture9/index.shtml">09 | Behaviour</a></li>
+                        <li><a href="../lectures/lecture10/index.shtml">10 | Source Control GIT</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://bcit1950meatloaf.tumblr.com/">Course in Blog</a></li>
+                <li><a href="../references/index.shtml">References</a></li>
+                <li><a href="../assignments/index.shtml">Assignments</a>
+                    <ul>
+                        <li><a href="../assignments/assignment1/index.shtml">Assignment 1</a></li>
+                        <li><a href="../assignments/assignment2/index.shtml">Assignment 2</a></li>
+                        <li><a href="../assignments/assignment3/index.shtml">Assignment 3</a></li>
+                        <li><a href="../assignments/assignment4/index.shtml">Assignment 4</a></li>
+                        <li><a href="../assignments/project/index.shtml">Project</a></li>
+                    </ul>
+                </li>
+                
+            </ul>
+        </nav>
+        <div class="notes">
+        
+                <p>The above sitemap was created from an HTML unordered list with <a href="http://astuteo.com/slickmap">SlickMap CSS.</a></p>
+        
+        </div>
+        <!--#include virtual="../incs/foot.inc" -->
+    </body>
+</html>
+
+            
+        
+

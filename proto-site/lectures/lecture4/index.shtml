@@ -3,8 +3,8 @@
     <head>
         <title>COMP 1950</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" media="screen " type="text/css" href="../styles/style.css" title="Normal">
-        <link rel="stylesheet" media="print " type="text/css" href="../styles/print.css" title="Print">             
+        <link rel="stylesheet" media="screen " type="text/css" href="../../styles/style.css" title="Normal">
+        <link rel="stylesheet" media="print " type="text/css" href="../../styles/print.css" title="Print">             
         <!--[if lt IE 9]>
         <script src="scripts/html5shiv.js"></script>
         <![endif]-->
@@ -14,20 +14,20 @@
         <!--#include virtual="../../incs/nav.inc" -->
 
         <section id="main">
-            <h2>
-                Agenda
-            </h2>
-            <div class="content">
+            <section class="content agenda">
+                <h2>
+                    Agenda
+                </h2>
+      
                 <ul>                       
                     <li>CSS Concepts</li>
                     <li>Exercises</li>
                     <li>Specificity</li>
                     <li>Measurements</li>
                 </ul>
-           </div>
-               
-            <h2>Referencing CSS</h2>
-            <div class="content">
+            </section>
+            <section class="content note">   
+                <h2>Referencing CSS</h2>
                 <h3>Linking your CSS</h3>
                 <p>When linking to external style sheets, there are a number of things to know about linking to those external files.  A standard LINK element:</p>
 
@@ -93,10 +93,10 @@
                     <li>This will gather all of the stylesheets in one place and let you play with your styles</li>
                     <li>See &quot;live edits&quot; as you make changes to the CSS</li>
                 </ul>
-            </div>
+            </section>
         	
-            <h2>CSS Selectors</h2>
-            <div class="content">
+            <section class="content note">
+                <h2>CSS Selectors</h2>
                 <p>Other than Element, Class, and ID selectors, there are many more that allow you to really present your content.</p>
 
                 <h3>Universal Selector</h3>
@@ -146,11 +146,10 @@
                     <li>You can further direct the attribute selector to find content that is at the beginning (using the carat: ^), somewhere inside (using the asterisk: *) or end of a value (using the dollar sign: $)</li>
                     <li>If you wanted to find any files that were SHTML files and mark their link differently, you could write: <code>a[href$=".shtml"] { color: olive; }</code></li>
                 </ul>
-            </div>
+            </section>
 
-
-            <h2>Simplifying your CSS</h2>
-            <div class="content">
+            <section class="content note">
+                <h2>Simplifying your CSS</h2>
                 <p>When building your CSS rules, there are some easy ways to compact your code.
             
                 <h3>Grouping selectors</h3>
@@ -170,11 +169,10 @@
                     <li>Order is irrelevant</li>
                     <li>Case is important!  Remember to use a single rule for CSS naming and stick with it</li>
                 </ul>
-            </div>
+            </section>
 
-
-            <h2>Exercise</h2>
-            <div class="content">
+            <section class="content excecise">
+                <h2>Exercise</h2>
                 <h3>Using Various Selectors</h3>
                 <p>While most selectors are fairly straightforward, using the right ones can be a little confusing.</p>
                 <p>To get a better handle on how they work, we'll use difference kinds of selectors to complete the exercises listed below</p>
@@ -184,19 +182,15 @@
                     <li><a href="exercise/exercise2.html">Exercise 2</a></li>
                 </ul>
                 <p>Try to make your page look exactly like the example pages</p>          
-            </div>
-            
-            
-            <h2>Exercise</h2>
-                <div class="content-block">
+                      
+                <h2>Exercise</h2>
                 <h3>More Attribute Selectors - Identify File Types</h3>
                 <p>In this <a href="exercise/exercise3.html">attribute selector exercise</a>, you will use attribute selectors to add more context to links on a page.</p>
-            </div>
+            </section>
 
-
+            <section class="content note">
             <h2>Rule Order &amp; Specificity</h2>
-            <div class="content">
-            
+
                 <p>When a style declaration is found to be in conflict with a previously declared style, there is a method for determining which one will win out.  The process is built into every web browser, and almost all of them calculate the values identically (for once!).</p>
                 
                 <p>Here is how the W3C defines the process by which style order is determined:</p>
@@ -267,11 +261,10 @@
                     <li><strong>Bad fonts</strong>: Comic Sans and Impact.  Resist the urge!
                 </ul>
             
-            </div>
+            </section>
     
-    
-            <h2>CSS Measurements</h2>
-            <div class="content-block">
+            <section class="content note">
+                <h2>CSS Measurements</h2>
             
                 <p>In CSS, there are a number of measurement values that can be used in declarations.</p>
                 
@@ -304,10 +297,10 @@
                     <li><strong>RGB: <code>rgb(255, 0, 255)</code></strong> - This allows the user to specify the same thing as Hex, but in Decimal format</li>
                     <li><strong>RGB %: <code>rgb(100%, 0%, 50%)</code></strong> - Almost identical to RGB, but with percentages of each color space instead</li>
                 </ul>
-            </div>
+            </section>
     
-            <h2>CSS Reset</h2>
-            <div class="content-block">
+            <section class="content note">
+                <h2>CSS Reset</h2>
             
                 <p>An excellent way to instruct a browser to set attributes to predictable values</p>
                 <p>This is one of the best ways to get closer to <strong>cross-browser compatibility</strong>!</p>
@@ -339,10 +332,10 @@
                     <li><strong>Note</strong>: use before any other stylesheets!</li>
                     <li>Remember to code your CSS from General to Specific. A reset is meant to be very general, allowing you to build on top of it</li>
                 </ul>
-            </div>
+            </section>
     
-            <h2>Organizing CSS Rules</h2>
-            <div class="content-block">
+            <section class="content note">
+                <h2>Organizing CSS Rules</h2>
                 <p>When building your CSS, here are some tips to better organize your rules</p>
                 <ul>
                     <li><strong>General to Specific</strong> - The best way to write your rules is from the very general, low specificity items to the very specific high specificity items</li>
@@ -350,7 +343,7 @@
                     <li><strong>!important always wins.</strong> If you want a specific rule to be used no matter where it falls in the cascade, add <strong>!important</strong> to the end.  Use this <strong>sparingly</strong>!</li>
                     <li>Comment your code!</li>
                 </ul>
-            </div>
+            </section>
         </section> <!-- main -->
         
         <!--#include virtual="../../incs/foot.inc" -->

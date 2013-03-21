@@ -3,8 +3,8 @@
     <head>
         <title>COMP 1950</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" media="screen " type="text/css" href="../styles/style.css" title="Normal">
-        <link rel="stylesheet" media="print " type="text/css" href="../styles/print.css" title="Print">             
+        <link rel="stylesheet" media="screen " type="text/css" href="../../styles/style.css" title="Normal">
+        <link rel="stylesheet" media="print " type="text/css" href="../../styles/print.css" title="Print">             
         <!--[if lt IE 9]>
         <script src="scripts/html5shiv.js"></script>
         <![endif]-->
@@ -14,9 +14,8 @@
         <!--#include virtual="../../incs/nav.inc" -->
 
         <section id="main">
-
-            <h2>Outline</h2>
-            <div class="content">
+            <section class="content note">
+                <h2>Outline</h2>
                 <p>Here is the current Course Outline (by week):</p>                  
                 <dl class="outline">
                     <dt>Week 1</dt>
@@ -85,10 +84,10 @@
                     <dd>Final Examination</dd>
             
                  </dl>
-            </div>
+            </section>
                         
-            <h2>Other subjects?  Tailor the course!</h2>          
-            <div class="content">               
+            <section class="content note">
+                <h2>Other subjects?  Tailor the course!</h2>                     
                 <ul>               
                     <li>What would you <strong>like</strong> to learn about?</li>                
                     <li>What are you most interested in learning?</li>                
@@ -96,10 +95,10 @@
                     <li>Are there subjects not covered here?</li>
                     <li>Brief introduction to myBCIT and a course survey</li>               
                 </ul>            
-            </div>  
+            </section>  
                 
-            <h2>introductions</h2>
-            <div class="content">
+            <section class="content note">
+                <h2>introductions</h2>
                 <p> <strong>All About Alistair Calder</strong>
                 <ul>
                 <li>Web Developer since 1995</li>
@@ -110,10 +109,10 @@
                     <li><strong>Currently:</strong> Technical lead on student portal, myBCIT</li>
                     <li>Broad knowledge set focussed mainly on web technologies</li>
                 </ul>
-            </div>
+            </section>
             
-            <h2>trivia</h2>
-            <div class="content">
+            <section class="content note">
+                <h2>trivia</h2>
                 <ul>
                     <li>Worked as:
                         <ul>
@@ -130,10 +129,10 @@
                     <li>Locked myself on the roof of the Rogers Cantel building up at Metrotown by accident.  Had to call a friend to come up and let me back in the building.</li>
                         <li>Live with a Nova Scotia Duck Tolling Retriever: <a href="http://www.alistair.com/collection/finnegan/2005_07/">Finnegan</a></li>
                 </ul>
-            </div>
+            </section>
             
-            <h2>Introductions: Who Are You?</h2>
-            <div class="content">
+            <section class="content note">
+                <h2>Introductions: Who Are You?</h2>
                 Pair up with your neighbour and find out from them:
                 <ul>               
                     <li>Name</li>
@@ -144,10 +143,10 @@
                     <li>Little-known trivia</li>               
                 </ul>
                 After 5 minutes, you will introduce your classmate.                                       
-            </div>
-                                       
-            <h2>web space</h2>
-            <div class="content">               
+            </section>
+            
+            <section class="content note">                           
+                <h2>web space</h2>             
                 <p>Each student will get personal webspace.  This may be different than in the past, as this space is exclusively yours, with your own username and password.</p>                
                 <p>This is also not a continuation of your COMP1850 site (if you had one).  This site is primarily for you to house your exercises, assignments, group work and more.  Make it a site that is usable and functional.</p>                
                 <p><strong>TheNet Setup</strong></p>
@@ -163,10 +162,10 @@
                     <li>Your URL will be: <strong>http://students.thenet.ca/{name}</strong></li>
                 
                 </ul>
-            </div>
+            </section>
                        
-            <h2>FTP into your Account</h2>
-            <div class="content">           
+            <section class="content note">
+                <h2>FTP into your Account</h2>      
                 <p>You can use any FTP program you are comfortable with. There is most likely one installed in the labs (it changes from term to term) but you can download and install any one you want.</p>               
                 <p>If you aren't knowledgeable with any FTP programs yet, just let me know!</p>               
                 <p>Here is the relevant information you will need to know:</p>
@@ -175,7 +174,7 @@
                     <li>Username: <strong>{the username you chose}@thenet.ca</strong></li>
                     <li>Password: <strong>{the password you entered}</strong></li>
                 </ul>           
-            </div>
+            </section>
         </section> <!-- main -->
         
         <!--#include virtual="../../incs/foot.inc" -->

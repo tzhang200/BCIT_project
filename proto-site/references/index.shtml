@@ -3,8 +3,8 @@
     <head>
         <title>COMP 1950</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" media="screen " type="text/css" href="/styles/style.css" title="Normal">
-        <link rel="stylesheet" media="print " type="text/css" href="/styles/print.css" title="Print"> 
+        <link rel="stylesheet" media="screen " type="text/css" href="../styles/style.css" title="Normal">
+        <link rel="stylesheet" media="print " type="text/css" href="../styles/print.css" title="Print"> 
         <!--[if lt IE 9]>
         <script src="scripts/html5shiv.js"></script>
         <![endif]-->
@@ -14,8 +14,8 @@
         <!--#include virtual="../incs/nav.inc" -->
 
         <section id="main">
-            <h2>HTML5</h2>
-            <div class="content">
+            <section class="content">
+                <h2>HTML5</h2>
                 <h3>Some excellent books on the topic of HTML5:</h3>
                 <ul>
                     <li><a href="http://books.alistapart.com/products/html5-for-web-designers">HTML5 for Web Developers by Jeremy Keith</a></li>
@@ -27,10 +27,10 @@
                     <li>Google's own <a href="http://static.googleusercontent.com/external_content/untrusted_dlcp/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf">Search Engine Optimization </a> guide</li>
                     <li>The <a href="http://searchengineland.com/download/seotable/SearchEngineLand-Periodic-Table-of-SEO.pdf">Periodic Table of Search Engine Optimization</a></li>
                 </ul>
-            </div>
+            </section>
                          
-            <h2>CSS</h2>
-            <div class="content">            
+            <section class="content">
+                <h2>CSS</h2>        
                 <h3>Some excellent books on CSS:</h3>   
                 <ul>
                     <li><strong><a href="https://developer.mozilla.org/en/CSS-2_Quick_Reference/">CSS2 Quick Reference</a></strong></li>
@@ -45,10 +45,10 @@
                     <li>An innovative approach is the <a href="http://necolas.github.com/normalize.css/">normalize.css</a>     
                 
                 </ul>          
-           </div> 
+           </section> 
             
-            <h2>jQuery</h2>
-            <div class="content">                          
+            <section class="content">
+                <h2>jQuery</h2>                       
                 <h3>Links:</h3>                                             
                 <ul>
                     <li><a href="http://plugins.jquery.com/" title="jQuery Plugins">jQuery Plugins</a></li>
@@ -56,7 +56,7 @@
                     <li><a href="http://docs.jquery.com/Downloading_jQuery" title="Download from jQuery">Download from jQuery</a></li>    
                 
                 </ul>          
-           </div> 
+           </section> 
         </section> <!-- main -->
         
         <!--#include virtual="../incs/foot.inc" -->

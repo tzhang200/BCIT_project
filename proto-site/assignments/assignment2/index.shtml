@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>COMP 1950</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" media="screen " type="text/css" href="../../styles/style.css" title="Normal">
+        <link rel="stylesheet" media="print " type="text/css" href="../../styles/print.css" title="Print">         
+        <!--[if lt IE 9]>
+        <script src="scripts/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!--#include virtual="../../incs/head.inc" -->
+        <!--#include virtual="../../incs/nav.inc" -->
+
+        <section id="main">
+            <section class="content assignment">
+                <h2>Assignment 2</h2>
+                <p>Take the content located on the <a href="content.txt">content page</a>, and make it look as close to this <a href="http://cl.ly/1T3V1P020Y3A3A204120/o">example page</a> as possible.</p>
+                
+                <p>All of the images are located here:</p>
+                <ul>
+                    <li><a href="finn-hat.jpg">First Finnegan photo</a></li>
+                    <li><a href="finn-park.jpg">Second Finnegan photo</a></li>
+                </ul>
+                
+                <h3>Assignment requirements</h3>
+                
+                <ul>
+                    <li>Make sure your page validates as XHTML Strict. Use the W3C Validator, and add link from the page directly to the validator using a referer (do some research on how to do this).</li>
+                    <li>Use CSS to create the presentation layer, fonts and measurements don't have to be exact. The page should have a strong resemblance</li>
+                    <li>Use any layout scheme you would like (tables, CSS, etc)</li>
+                </ul>
+                
+                <h3>Assignment suggestion</h3>
+                <ul>
+                    <li>Try to use some of the plugins we looked at today to help you determine how to build the page properly</li>
+                </ul>
+            </section>
+            
+        </section> <!-- main -->
+        
+        <!--#include virtual="../../incs/foot.inc" -->
+
+    </body>
+</html>
+
+            

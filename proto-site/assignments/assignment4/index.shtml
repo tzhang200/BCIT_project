@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>COMP 1950</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" media="screen " type="text/css" href="../../styles/style.css" title="Normal">
+        <link rel="stylesheet" media="print " type="text/css" href="../../styles/print.css" title="Print">         
+        <!--[if lt IE 9]>
+        <script src="scripts/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!--#include virtual="../../incs/head.inc" -->
+        <!--#include virtual="../../incs/nav.inc" -->
+
+        <section id="main">
+            <section class="content assignment">
+                <h2>Assignment 4</h2>              
+                <p>Complete all 3 exercises listed in lecture 4</p>
+                <p>Take the HTML5 version of the blog page you created for Finnegan and apply two stylesheets:</p>
+                <ol>
+                    <li>Make a straightforward one similar to the original (you may have already done this)</li>
+                    <li>Create an alternate stylesheet and change up the style of the page <em>significantly</em>.  Keep all of the elements, don&apos;t change any HTML, just change the CSS.</li>
+                    <li>Remember to give the two stylesheets names so that you can differentiate them</li>
+                </ol>
+            </section>
+            
+        </section> <!-- main -->
+        
+        <!--#include virtual="../../incs/foot.inc" -->
+
+    </body>
+</html>
+
+            
